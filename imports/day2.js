@@ -1,25 +1,11 @@
 const fs = require("fs");
-let data;
-let lines;
-
-// DAY 1
-let inputDay1 = [];
-// read contents of the file
-data = fs.readFileSync("inputs/day1.txt", "UTF-8");
-// split the contents by new line
-lines = data.split(/\r?\n/);
-// for all lines
-lines.forEach((line) => {
-  // trim the line, parse to into, push into array
-  inputDay1.push(parseInt(line.trim()));
-});
 
 // DAY 2
 let inputDay2 = [];
 // read contents of the file
-data = fs.readFileSync("inputs/day2.txt", "UTF-8");
+const data = fs.readFileSync("inputs/day2.txt", "UTF-8");
 // split the contents by new line
-lines = data.split(/\r?\n/);
+const lines = data.split(/\r?\n/);
 // for all lines
 lines.forEach((line) => {
   // split the line
@@ -49,7 +35,4 @@ lines.forEach((line) => {
   inputDay2.push(lineObj);
 });
 
-module.exports = {
-  inputDay1,
-  inputDay2,
-};
+module.exports = inputDay2;
