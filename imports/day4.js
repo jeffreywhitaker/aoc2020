@@ -49,51 +49,6 @@ _inputDay4b.forEach((passportArray) => {
   inputDay4b.push(passportObj);
 });
 
-// let day4bInput = day4bInput;
-
-// // split on space for each passportString
-// day4aInput.forEach((passportString) => {
-//   // create an object to house each field for each individual passport
-//   let objToReturn = {};
-
-//   // create an array of strings, formatted as 'key:value'
-//   const arrOfKeyVals = passportString.split(" ");
-
-//   const toAdd = [];
-//   // take care of \r\n in the strings
-//   arrOfKeyVals.forEach((string, index) => {
-//     if (string.includes("\r\n")) {
-//       // get the problem string but don't remove yet
-//       const problemString = string;
-
-//       // split where necessary
-//       const arrOfNewParts = problemString[0].split("\r\n");
-
-//       // put them into the original array correctly
-//       arrOfNewParts.forEach((part) => {
-//         toAdd.push(part);
-//       });
-
-//       // remove the problem string
-//       arrOfKeyVals.splice(index, 1);
-//     }
-//   });
-//   arrOfKeyVals.concat(toAdd);
-//   console.log("oidfnsodf, ", arrOfKeyVals);
-//   return;
-
-//   // for each of these strings
-//   arrOfKeyVals.forEach((pair) => {
-//     // splice on the ':' and save the key and value to the return Obj
-//     const pairArr = pair.split(":");
-//     objToReturn[pairArr[0]] = pairArr[1];
-//   });
-
-//   day4bInput.push(objToReturn);
-// });
-
-// console.log("input: ", day4bInput);
-
 module.exports = {
   inputDay4a,
   inputDay4b,
