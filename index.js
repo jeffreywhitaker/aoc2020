@@ -9,6 +9,7 @@ const inputDay2 = require("./imports/day2");
 const inputDay3 = require("./imports/day3");
 const { inputDay4a, inputDay4b } = require("./imports/day4");
 const inputDay5 = require("./imports/day5");
+const inputDay6 = require("./imports/day6");
 
 console.log("\n Day 1:");
 console.log(day1a(inputDay1));
@@ -29,5 +30,8 @@ console.log(day4b(inputDay4b));
 console.log("\n Day 5:");
 console.log(day5a(inputDay5));
 console.log(day5b(inputDay5));
+
+console.log("\n Day 6:");
+console.log(inputDay6);
 
 console.log("\n");
