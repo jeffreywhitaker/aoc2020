@@ -3,7 +3,7 @@ const { day2a, day2b } = require("./solutions/day2");
 const { day3a, day3b, slopesFor3b } = require("./solutions/day3");
 const { day4a, day4b } = require("./solutions/day4");
 const { day5a, day5b } = require("./solutions/day5");
-const { day6a } = require("./solutions/day6");
+const { day6a, day6b } = require("./solutions/day6");
 
 const inputDay1 = require("./imports/day1");
 const inputDay2 = require("./imports/day2");
@@ -34,5 +34,6 @@ console.log(day5b(inputDay5));
 
 console.log("\n Day 6:");
 console.log(day6a(inputDay6));
+console.log(day6b(inputDay6));
 
 console.log("\n");
